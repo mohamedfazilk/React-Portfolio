@@ -65,3 +65,31 @@ header {
         font-weight: 300;
         font-size: 0.9rem;
 }
+
+
+/* =====================MEDIA QUERIES (MEDIUM-DEVICES)====================== */
+
+@media screen and (max-width: 1024px) {
+    header{
+        height: 150vh;
+    }
+}
+
+
+
+
+/* =====================MEDIA QUERIES (SMALL-DEVICES)====================== */
+
+@media screen and (max-width: 600px) {
+    header{
+        height: 150vh;
+    }
+    .me{
+       
+    margin: 1rem;
+    }
+
+    .header__socials, .scroll__down{
+        display: none;
+    }
+}
