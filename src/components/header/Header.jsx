@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css';
 import CAL from './CAL';
+import ME from '../../assets/fas.jpg'
 
 const Header = () => {
   return (
@@ -12,6 +13,12 @@ const Header = () => {
      </div>
 
      <CAL />
+
+     <div className='me'>
+       <img src={ME} alt="me" />
+     </div>
+
+
 
    </header>
   )
