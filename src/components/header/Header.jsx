@@ -1,7 +1,9 @@
 import React from 'react';
 import './header.css';
 import CAL from './CAL';
-import ME from '../../assets/fas.jpg'
+import ME from '../../assets/fas.jpg';
+import HeaderSocio from './HeaderSocio';
+
 
 const Header = () => {
   return (
@@ -11,6 +13,7 @@ const Header = () => {
        <h1>Mohamed Fazil </h1>
        <h5 className='text-light'>Full Stack Developer</h5>
      <CAL />
+     <HeaderSocio/>
 
      <div className='me'>
        <img src={ME} alt="me" />
