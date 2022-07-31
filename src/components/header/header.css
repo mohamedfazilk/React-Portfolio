@@ -13,8 +13,23 @@ header {
 
 /* ==========================cal(CV AND LETS TALK BUTTONS)========================= */
 .cal {
-    margin-top: 2.5rem;  
+    margin-top: 2.5rem; 
+    margin-bottom: 1rem; 
     display: flex;
     gap: 1.2rem;
     justify-content: center;  
+}
+
+/* =================================social-icons=============== */
+
+.header__socials {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+
 }
