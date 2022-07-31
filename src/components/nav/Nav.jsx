@@ -8,7 +8,7 @@ import {BiMessageSquareDetail} from 'react-icons/bi';
 const Nav = () => {
   return (
     <nav>
-      <a href=""><AiOutlineHome/></a>
+      <a href="#"  ><AiOutlineHome/></a>
       <a href="#about"><AiOutlineUser/></a>
       <a href="#experience"><BsBook/></a>
       <a href="#services"><RiServiceLine/></a>
