@@ -14,32 +14,45 @@ const Experience = () => {
              <div className="experience__content">
                <article className="experience__details">
                  <BsPatchCheck/>
+                 <div>
                  <h4>Html</h4>
                   <small className='text-light'>Experienced</small>
+                 </div>
+                 
                </article>
 
                <article className="experience__details">
                  <BsPatchCheck/>
+                 <div>
                  <h4>CSS</h4>
                   <small className='text-light'>Experienced</small>
+                 </div>
+                
                </article>
 
                <article className="experience__details">
                  <BsPatchCheck/>
+                 <div>
                  <h4>Bootstrap</h4>
                   <small className='text-light'>Experienced</small>
+                 </div>
                </article>
 
                <article className="experience__details">
                  <BsPatchCheck/>
+                 <div>
                  <h4>Javascript</h4>
                   <small className='text-light'>Experienced</small>
+                 </div>
                </article>
 
                <article className="experience__details">
                  <BsPatchCheck/>
+                 <div>
                  <h4>React </h4>
                   <small className='text-light'>Intermediate</small>
+                 </div>
+                
                </article>
 
               
@@ -53,48 +66,63 @@ const Experience = () => {
            <h3>Backend Development</h3>
              <div className="experience__content">
                <article className="experience__details">
-                 <BsPatchCheck/>
+               <BsPatchCheck/>
+                 <div>  
                  <h4>Java</h4>
                   <small className='text-light'>Experienced</small>
+                 </div>
                </article>
 
                <article className="experience__details">
-                 <BsPatchCheck/>
+               <BsPatchCheck/>
+                 <div>
                  <h4>Spring Boot</h4>
                   <small className='text-light'>Intermediate</small>
+                 </div>
                </article>
 
                <article className="experience__details">
-                 <BsPatchCheck/>
+               <BsPatchCheck/>
+                 <div>
                  <h4>Spring Rest</h4>
                   <small className='text-light'>Intermediate</small>
+                 </div>
                </article>
 
                <article className="experience__details">
-                 <BsPatchCheck/>
+               <BsPatchCheck/>
+                 <div>
                  <h4>MySql</h4>
                   <small className='text-light'>Experienced</small>
+                 </div>
                </article>
 
                <article className="experience__details">
-                 <BsPatchCheck/>
+               <BsPatchCheck/>
+                 <div>
                  <h4>Python</h4>
                   <small className='text-light'>Experienced</small>
+                 </div>
                </article>
 
                <article className="experience__details">
-                 <BsPatchCheck/>
+               <BsPatchCheck/>
+                 <div>
                  <h4>Django</h4>
                   <small className='text-light'>Intermediate</small>
-               </article>
+                 </div>
+                 </article>
+               
+                
+               
 
                <article className="experience__details">
-                 <BsPatchCheck/>
+               <BsPatchCheck/>
+                 <div>
                  <h4>Flask</h4>
                   <small className='text-light'>Intermediate</small>
-               </article>
-
-              
+                 </div>
+                 </article>
              </div>
 
            </div>
