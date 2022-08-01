@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.css';
 import ME from '../../assets/fas.jpg';
+import {FaAward} from 'react-icons/fa';
 
 const about = () => {
   return (
@@ -17,6 +18,13 @@ const about = () => {
         </div>
 
         <div className="about__content">
+          <div className="about__cards">
+            <div className="about__card">
+              <FaAward className='about__icon'/>
+              <h5>Experience</h5>
+              <small>Currently working</small>
+            </div>
+          </div>
 
         </div>
       </div>
