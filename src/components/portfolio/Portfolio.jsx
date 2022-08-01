@@ -7,6 +7,66 @@ import IMG4 from '../../assets/portfolio4.jpg';
 import IMG5 from '../../assets/portfolio5.png';
 import IMG6 from '../../assets/portfolio6.jpg';
 
+const data = [
+
+	{
+	id:1,
+	image:IMG1,
+	title:'dummy of every time',
+	github:'https://google.com',
+	demo:'https://mashable.com/article/dark-mode-apps-instagram-google-chrome-apple-ios13'
+	
+	},
+
+	{
+	id:2,
+	image:IMG2,
+	title:'dummy of every time',
+	github:'https://google.com',
+	demo:'https://mashable.com/article/dark-mode-apps-instagram-google-chrome-apple-ios13'
+	
+	},
+
+{
+	id:3,
+	image:IMG3,
+	title:'dummy of every time',
+	github:'https://google.com',
+	demo:'https://mashable.com/article/dark-mode-apps-instagram-google-chrome-apple-ios13'
+	
+	},
+
+{
+	id:4,
+	image:IMG4,
+	title:'dummy of every time',
+	github:'https://google.com',
+	demo:'https://mashable.com/article/dark-mode-apps-instagram-google-chrome-apple-ios13'
+	
+	},
+
+{
+	id:5,
+	image:IMG5,
+	title:'dummy of every time',
+	github:'https://google.com',
+	demo:'https://mashable.com/article/dark-mode-apps-instagram-google-chrome-apple-ios13'
+	
+	},
+
+{
+	id:6,
+	image:IMG6,
+	title:'dummy of every time',
+	github:'https://google.com',
+	demo:'https://mashable.com/article/dark-mode-apps-instagram-google-chrome-apple-ios13'
+	
+	}
+
+]
+
+
+
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -27,68 +87,6 @@ const Portfolio = () => {
 
 
 
-        <article className="portfolio-item">
-          <div className="portfolio-item-image">
-              <img src={IMG2} alt="image1" />
-          </div>
-          <h3>title</h3>
-           <div className="portfolio-item-cta">
-           <a href="#" className='btn' target='_blank'>Github</a>
-          <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-
-
-        <article className="portfolio-item">
-          <div className="portfolio-item-image">
-              <img src={IMG3} alt="image1" />
-          </div>
-          <h3>title</h3>
-           <div className="portfolio-item-cta">
-           <a href="#" className='btn' target='_blank'>Github</a>
-          <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-
-
-        <article className="portfolio-item">
-          <div className="portfolio-item-image">
-              <img src={IMG4} alt="image1" />
-          </div>
-          <h3>title</h3>
-           <div className="portfolio-item-cta">
-           <a href="#" className='btn' target='_blank'>Github</a>
-          <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-
-
-        <article className="portfolio-item">
-          <div className="portfolio-item-image">
-              <img src={IMG5} alt="image1" />
-          </div>
-          <h3>title</h3>
-           <div className="portfolio-item-cta">
-           <a href="#" className='btn' target='_blank'>Github</a>
-          <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-
-        <article className="portfolio-item">
-          <div className="portfolio-item-image">
-              <img src={IMG6} alt="image1" />
-          </div>
-          <h3>title</h3>
-           <div className="portfolio-item-cta">
-           <a href="#" className='btn' target='_blank'>Github</a>
-          <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-         
-        </article>
       </div>
     </section>
   )
