@@ -15,12 +15,79 @@ const Portfolio = () => {
 
       <div className="container portfolio-container">
         <article className="portfolio-item">
-          <div className="portfolio__item-image">
-
+          <div className="portfolio-item-image">
+              <img src={IMG1} alt="image1" />
           </div>
           <h3>title</h3>
+          <div className="portfolio-item-cta">
           <a href="#" className='btn' target='_blank'>Github</a>
-          <a href="#" classNam='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href="#" className="btn btn-primary" target='_blank'>Live Demo</a>
+          </div>
+        </article>
+
+
+
+        <article className="portfolio-item">
+          <div className="portfolio-item-image">
+              <img src={IMG2} alt="image1" />
+          </div>
+          <h3>title</h3>
+           <div className="portfolio-item-cta">
+           <a href="#" className='btn' target='_blank'>Github</a>
+          <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+
+
+
+        <article className="portfolio-item">
+          <div className="portfolio-item-image">
+              <img src={IMG3} alt="image1" />
+          </div>
+          <h3>title</h3>
+           <div className="portfolio-item-cta">
+           <a href="#" className='btn' target='_blank'>Github</a>
+          <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+
+
+
+        <article className="portfolio-item">
+          <div className="portfolio-item-image">
+              <img src={IMG4} alt="image1" />
+          </div>
+          <h3>title</h3>
+           <div className="portfolio-item-cta">
+           <a href="#" className='btn' target='_blank'>Github</a>
+          <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+
+
+
+        <article className="portfolio-item">
+          <div className="portfolio-item-image">
+              <img src={IMG5} alt="image1" />
+          </div>
+          <h3>title</h3>
+           <div className="portfolio-item-cta">
+           <a href="#" className='btn' target='_blank'>Github</a>
+          <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+
+
+        <article className="portfolio-item">
+          <div className="portfolio-item-image">
+              <img src={IMG6} alt="image1" />
+          </div>
+          <h3>title</h3>
+           <div className="portfolio-item-cta">
+           <a href="#" className='btn' target='_blank'>Github</a>
+          <a href="#" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+         
         </article>
       </div>
     </section>
