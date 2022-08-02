@@ -3,7 +3,13 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <section id='contact'>Footer</section>
+    <section id='contact'>
+      <footer>
+        <a href="#" className='footer__logo'>FAZIL</a>
+
+        
+      </footer>
+    </section>
   )
 }
 
