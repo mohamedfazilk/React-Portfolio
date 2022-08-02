@@ -36,7 +36,8 @@
 
 }
 
-.swiper-pagination-bullet .swiper-pagination-bullet-active {
+.swiper-pagination-clickable .swiper-pagination-bullet-active {
+    background: var(--color-primary);
   
 }
 
