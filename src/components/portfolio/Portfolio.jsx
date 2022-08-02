@@ -70,8 +70,9 @@ const data = [
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h3>My Recent Works</h3>
-      <h5>Portfolio</h5>
+       <h5>My Recent Works</h5>
+      <h3>Portfolio </h3>
+     
 
       <div className="container portfolio-container">
         {data.map(({id,image,title,github,demo}) =>{
