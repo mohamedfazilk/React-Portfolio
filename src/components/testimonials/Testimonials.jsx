@@ -7,6 +7,9 @@ import { Navigation} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+import 'swiper/css';
+import 'swiper/css/navigation';
+
 
 const data = [
 
@@ -66,11 +69,11 @@ const Testimonials = () => {
     <section id='testimonials'>
       <h5>Review From Clients</h5>
       <h3>Testimonials</h3>
-      <div className="container testimonials_container">
+      <Swiper className="container testimonials_container">
         {data.map(({id,image,Review,title}) => {
           return(
-            <article key={id} className="testimonial">
-            <div className="client__avatar">
+            <SwiperSlide key={id} className="testimonial">
+             <div className="client__avatar">
               <img src={image} alt="avatar-one" />
             </div>
   
@@ -81,11 +84,11 @@ const Testimonials = () => {
             </small>
   
   
-          </article>
+          </SwiperSlide>
           )
         })}
        
-      </div>
+      </Swiper>
     </section>
   )
 }
