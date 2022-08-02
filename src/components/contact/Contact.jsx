@@ -16,10 +16,10 @@ const Contact = () => {
       .then((result) => {
           console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+          console.log(error.text);////////////////emailjs///////////
       });
   };
-  
+////////////////
   return (
     <section id='contact'>
       <h5>Get   In Touch</h5>
@@ -50,7 +50,7 @@ const Contact = () => {
         </div>
 
 
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
