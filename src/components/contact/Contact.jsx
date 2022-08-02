@@ -12,21 +12,21 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            < MdOutlineEmail />
+            < MdOutlineEmail  className='contact__option-icon ' />
             <h4>Email</h4>
             <h5>Mohamedfazil961@gmail.com</h5>
             <a href="mailto:Mohamedfazil961@gmail.com" target='_blank'>Send a Message</a>
           </article>
 
           <article className="contact__option">
-            < BsWhatsapp />
+            < BsWhatsapp  className='contact__option-icon '/>
             <h4>Whatsapp</h4>
             <h5>Mohamedfazil961@gmail.com</h5>
             <a href="https://whatsapp.com/send?phone=8086447566" target='_blank'>Send a Message</a>
           </article>
 
           <article className="contact__option">
-            < MdOutlineEmail />
+            < MdOutlineEmail   className='contact__option-icon '/>
             <h4>Email</h4>
             <h5>Mohamedfazil961@gmail.com</h5>
             <a href="mailto:Mohamedfazil961@gmail.com" target='_blank'>Send a Message</a>
