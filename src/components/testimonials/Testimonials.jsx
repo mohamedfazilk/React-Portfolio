@@ -69,10 +69,10 @@ const Testimonials = () => {
     <section id='testimonials'>
       <h5>Review From Clients</h5>
       <h3>Testimonials</h3>
-      <Swiper className="container testimonials_container"  modules={[Pagination, Autoplay]}
+      <Swiper className="container testimonials_container"  modules={[Pagination,Autoplay]}
       spaceBetween={40}
       slidesPerView={1}
-      data-swiper-autoplay={2000}
+      autoplay={true}
       pagination={{ clickable: true }}
      >
      
