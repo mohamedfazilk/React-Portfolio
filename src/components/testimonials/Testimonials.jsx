@@ -1,5 +1,8 @@
 import React from 'react';
 import './testimonials.css';
+import IMG1 from '../../assets/avatar1.jpg'
+import IMG2 from '../../assets/avatar2.jpg';
+import IMG3 from '../../assets/avatar3.jpg';
 
 const Testimonials = () => {
   return (
@@ -9,9 +12,17 @@ const Testimonials = () => {
       <div className="conatiner testimonials_container">
         <article className="tesimonial">
           <div className="client__avatar">
-
+            <img src={IMG1} alt="avatar-one" />
           </div>
-          
+
+          <h5 className='client__name'>Fazil</h5>
+          <small className='client__review'>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Nostrum nesciunt officia itaque dolorum sit sequi!
+              Iure eligendi nisi voluptatibus fugit dignissimos.
+          </small>
+
+
         </article>
       </div>
     </section>
