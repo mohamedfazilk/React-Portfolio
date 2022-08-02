@@ -1,4 +1,4 @@
-import React from 'react';
+import  {React,useState,useEffect} from 'react';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import About from './components/about/About';
@@ -8,11 +8,37 @@ import Portfolio from './components/portfolio/Portfolio';
 import Services from './components/services/Services';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import Loading from './components/loading/Loading';
+import './index.css'
 
 const App = () => {
-  return (
-    <>
+
+  const [loading, setLoading] = useState(false);
+
+   
+
+    useEffect (()=>{
+        setLoading(true);
+        console.log(loading);
+        setTimeout(() => {
+            setLoading(false);
+            console.log(loading)
+          }, 2000);
+    },[])
+
+    if(loading){
+     return(<div className="loader-container">
+     hello..............
+   <div className="spinner"></div>
+ </div>) 
+    }
+      
     
+return (
+
+      
+    <>
+   
     <Header/>
     <Nav/>
     <About/>
