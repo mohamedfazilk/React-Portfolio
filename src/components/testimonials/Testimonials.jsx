@@ -3,7 +3,7 @@ import './testimonials.css';
 import IMG1 from '../../assets/avatar1.jpg'
 import IMG2 from '../../assets/avatar2.jpg';
 import IMG3 from '../../assets/avatar3.jpg';
-import { Pagination} from 'swiper';
+import { Pagination, Autoplay} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -69,9 +69,10 @@ const Testimonials = () => {
     <section id='testimonials'>
       <h5>Review From Clients</h5>
       <h3>Testimonials</h3>
-      <Swiper className="container testimonials_container"  modules={[Pagination]}
+      <Swiper className="container testimonials_container"  modules={[Pagination, Autoplay]}
       spaceBetween={40}
       slidesPerView={1}
+      data-swiper-autoplay={2000}
       pagination={{ clickable: true }}
      >
      
