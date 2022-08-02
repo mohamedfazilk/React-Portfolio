@@ -3,13 +3,13 @@ import './testimonials.css';
 import IMG1 from '../../assets/avatar1.jpg'
 import IMG2 from '../../assets/avatar2.jpg';
 import IMG3 from '../../assets/avatar3.jpg';
-import { Navigation} from 'swiper';
+import { Pagination} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
-import 'swiper/css/navigation';
-
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 const data = [
 
@@ -69,7 +69,14 @@ const Testimonials = () => {
     <section id='testimonials'>
       <h5>Review From Clients</h5>
       <h3>Testimonials</h3>
-      <Swiper className="container testimonials_container">
+      <Swiper className="container testimonials_container"  modules={[Pagination]}
+      spaceBetween={40}
+      slidesPerView={1}
+      pagination={{ clickable: true }}
+     >
+     
+     
+
         {data.map(({id,image,Review,title}) => {
           return(
             <SwiperSlide key={id} className="testimonial">
