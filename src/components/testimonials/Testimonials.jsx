@@ -3,6 +3,9 @@ import './testimonials.css';
 import IMG1 from '../../assets/avatar1.jpg'
 import IMG2 from '../../assets/avatar2.jpg';
 import IMG3 from '../../assets/avatar3.jpg';
+import { Navigation} from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 
 const data = [
@@ -19,7 +22,7 @@ const data = [
 	id:2,
 	image:IMG2,
 	title:'dummy of every time',
-	github:'sdfghjklfghjkl;fghjk',
+	Review:'sdfghjklfghjkl;fghjk',
 	
 	},
 
@@ -27,31 +30,31 @@ const data = [
 	id:3,
 	image:IMG3,
 	title:'dummy of every time',
-	github:'sdfghjklfghjkl;fghjk',
+	Review:'sdfghjklfghjkl;fghjk',
 	
 	},
 
 {
 	id:4,
-	image:IMG4,
+	image:IMG1,
 	title:'dummy of every time',
-	github:'sdfghjklfghjkl;fghjk',
+	Review:'sdfghjklfghjkl;fghjk',
 	
 	},
 
 {
 	id:5,
-	image:IMG5,
+	image:IMG2,
 	title:'dummy of every time',
-	github:'sdfghjklfghjkl;fghjk',
+	Review:'sdfghjklfghjkl;fghjk',
 	
 	},
 
 {
 	id:6,
-	image:IMG6,
+	image:IMG3,
 	title:'dummy of every time',
-	github:'sdfghjklfghjkl;fghjk',
+	Review:'sdfghjklfghjkl;fghjk',
 	
 	}
 
@@ -64,6 +67,23 @@ const Testimonials = () => {
       <h5>Review From Clients</h5>
       <h3>Testimonials</h3>
       <div className="container testimonials_container">
+        {data.map(({id,image,Review,title}) => {
+          return(
+            <article key={id} className="testimonial">
+            <div className="client__avatar">
+              <img src={image} alt="avatar-one" />
+            </div>
+  
+            <h5 className='client__name'>{title}</h5>
+            <small className='client__review'>
+             {Review}
+                
+            </small>
+  
+  
+          </article>
+          )
+        })}
        
       </div>
     </section>
