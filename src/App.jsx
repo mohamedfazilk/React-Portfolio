@@ -28,9 +28,9 @@ const App = () => {
 
     if(loading){
      return(
-       <div className="loader-div">
-         Loading.
-          <div class="loader">Loading...</div>
+       <div className="loader-container">
+        <h2 className='text-load'>Loading..</h2>
+          <div class="spinner"></div>
        </div>
      
      ) 
