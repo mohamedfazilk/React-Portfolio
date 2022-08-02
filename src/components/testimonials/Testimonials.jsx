@@ -9,8 +9,8 @@ const Testimonials = () => {
     <section id='testimonials'>
       <h5>Review From Clients</h5>
       <h3>Testimonials</h3>
-      <div className="conatiner testimonials_container">
-        <article className="tesimonial">
+      <div className="container testimonials_container">
+        <article className="testimonial">
           <div className="client__avatar">
             <img src={IMG1} alt="avatar-one" />
           </div>
@@ -19,7 +19,7 @@ const Testimonials = () => {
           <small className='client__review'>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
              Nostrum nesciunt officia itaque dolorum sit sequi!
-              Iure eligendi nisi voluptatibus fugit dignissimos.
+              
           </small>
 
 
