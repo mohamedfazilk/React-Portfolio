@@ -16,7 +16,7 @@ const data = [
 	id:1,
 	image:IMG1,
 	title:'Near Taj Mahal',
-	Review:'Near One Of The 7 Wonders Of the World',
+	Review:'Near One Of The 7 Wonders Of the World.',
 	
 	},
 
@@ -34,7 +34,7 @@ const data = [
 	id:3,
 	image:"https://www.targetadmission.com/img/colleges/optimized/600/IMG-1-772888231.jpg",
 	title:'Btech',
-	Review:'MGM College Of Engineering&Pharmaceutical Sciences',
+	Review:'MGM College Of Engineering & Pharmaceutical Sciences',
 	
 	},
 
@@ -57,7 +57,7 @@ const data = [
 ]
 
 
-const Testimonials = () => {
+const Myphotos = () => {
   return (
     <section id='testimonials'>
       <h5>Review From Clients</h5>
@@ -94,4 +94,4 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials
+export default Myphotos
