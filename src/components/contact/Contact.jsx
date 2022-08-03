@@ -38,12 +38,7 @@ const Contact = () => {
             <a href="https://whatsapp.com/send?phone=8086447566" target='_blank'>Send a Message</a>
           </article>
 
-          <article className="contact__option">
-            < MdOutlineEmail   className='contact__option-icon '/>
-            <h4>Email</h4>
-            <h5>Mohamedfazil961@gmail.com</h5>
-            <a href="mailto:Mohamedfazil961@gmail.com" target='_blank'>Send a Message</a>
-          </article>
+          
         </div>
 
 
