@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 import ME from '../../assets/fas.jpg';
-import {FaAward} from 'react-icons/fa';
+import {AiFillGooglePlusSquare} from 'react-icons/ai';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
 
@@ -21,9 +21,9 @@ const about = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>3+ years workspace </small>
+              <AiFillGooglePlusSquare className='about__icon'/>
+              <h5>GDG </h5>
+              <small>Member of GDG  </small>
             </article>
 
             <article className="about__card">
