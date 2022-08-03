@@ -133,7 +133,7 @@ img {
     justify-content: center;
     align-items: center;
     position: fixed;
-    background: #14213d;
+    background:#14213d;;
     z-index: 1;
 }
 

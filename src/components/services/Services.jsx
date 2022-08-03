@@ -11,30 +11,30 @@ const Services = () => {
         <article className='service'>
 
           <div className="service__heading">
-            <h3>Web Development</h3>
+            <h3>Web Design</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.
+              <p>Effective Typography.
               </p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.
+              <p>Calls-To-Action
               </p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.
+              <p>The Right Color Scheme.
               </p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.
+              <p>Appropriate Design Elements.
               </p>
             </li>
 
@@ -49,31 +49,31 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.
+              <p>Responsible code for whole.
               </p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.
+              <p>Well Beign Structure.
               </p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.
+              <p>User-Friendly Pages.
               </p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.
+              <p>Flexible Maintenance.
               </p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.
+              <p>Fast Testing & Delivery.
               </p>
             </li>
           </ul>
@@ -85,32 +85,28 @@ const Services = () => {
         <article className='service'>
 
         <div className="service__heading">
-        <h3>Web Development</h3>
+        <h3>Content Creation</h3>
         </div>
         <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur.
+            <p>Well Beign Research The Area Of Content
               </p>
           </li>
 
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur.
+            <p>Deep Understanding About The Content
               </p>
           </li>
 
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur.
+            <p>Better Analytic Skills.
               </p>
           </li>
 
-          <li>
-            <BiCheck className='service__list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur.
-              </p>
-          </li>
+        
 
         
 
