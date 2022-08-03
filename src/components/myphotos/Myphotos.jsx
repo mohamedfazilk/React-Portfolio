@@ -60,8 +60,8 @@ const data = [
 const Myphotos = () => {
   return (
     <section id='testimonials'>
-      <h5>Review From Clients</h5>
-      <h3>Testimonials</h3>
+      <h5>Capture Every Moment</h5>
+      <h3>My Photos</h3>
       <Swiper className="container testimonials_container"  modules={[Pagination,Autoplay]}
       spaceBetween={40}
       slidesPerView={1}
