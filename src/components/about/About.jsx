@@ -39,10 +39,10 @@ const about = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Eius tenetur ratione dicta? Beatae quaerat amet molestiae
-               sit rem illum, aliquid, placeat earum ipsa, qui itaque perferendis
-                cum numquam repellat similique.</p>
+          <p>I'm a Full Stack Developer, With My Experience I can build Your Dreams
+            with my Skills & Efficient Knowledge Of Working In Different
+            Projects. If You Like My Works Then don’t hesitate to reach out me !  
+            </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>      
 

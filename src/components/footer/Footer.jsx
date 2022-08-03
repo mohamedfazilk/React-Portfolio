@@ -21,7 +21,7 @@ const Footer = () => {
 
         <div className="footer__socials">
           <a href="#"><FaFacebookF/></a>
-          <a href="#"><FiInstagram/></a>
+          <a href="https://instagram.com/fazil_k66"><FiInstagram/></a>
 
         </div>
       </footer>
