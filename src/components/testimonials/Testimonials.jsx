@@ -39,28 +39,28 @@ const data = [
 
 {
 	id:4,
-	image:IMG1,
+	image:"https://www.targetadmission.com/img/colleges/optimized/600/IMG-1-772888231.jpg",
 	title:'dummy of every time',
 	Review:'sdfghjklfghjkl;fghjk',
 	
 	},
 
-{
-	id:5,
-	image:IMG2,
-	title:'dummy of every time',
-	Review:'sdfghjklfghjkl;fghjk',
 	
+	{
+		id:5,
+		image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLw-A6xmEkudC7wvrKyLIZGLRIBGjLnzCCei1P91qV2dCllzIDdhD9cOE94lIlhCKrTKg&usqp=CAU",
+		title:'dummy of every time',
+		Review:'sdfghjklfghjkl;fghjk',
+		
 	},
-
-{
-	id:6,
-	image:IMG3,
-	title:'dummy of every time',
-	Review:'sdfghjklfghjkl;fghjk',
 	
-	}
-
+	{
+		id:6,
+		image:"https://cache.careers360.mobi/media/schools/social-media/media-gallery/8817/2019/7/24/Aes%20Central%20School-Campus%20View.jpg",
+		title:'High School',
+		Review:'Aes Central School',
+		
+		}
 ]
 
 

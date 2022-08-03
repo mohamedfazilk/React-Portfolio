@@ -13,23 +13,23 @@ import './index.css'
 
 const App = () => {
 
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
    
 
     useEffect (()=>{
-       
+        setLoading(true)
         console.log(loading);
         setTimeout(() => {
-            
+            setLoading(false)
             console.log(loading)
-          },);
+          },3000);
     },[])
 
     if(loading){
      return(
        <div className="loader-container">
-        <h2 className='text-load'>Loading..</h2>
+        <h2 className='text-load'>Loading...</h2>
           <div class="spinner"></div>
        </div>
      
