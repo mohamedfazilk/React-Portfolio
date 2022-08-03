@@ -1,8 +1,7 @@
 import React from 'react';
 import './testimonials.css';
 import IMG1 from '../../assets/avatar1.jpg'
-import IMG2 from '../../assets/avatar2.jpg';
-import IMG3 from '../../assets/avatar3.jpg';
+import IMG2 from '../../assets/avatar2.webp';
 import { Pagination, Autoplay} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -16,46 +15,40 @@ const data = [
 	{
 	id:1,
 	image:IMG1,
-	title:'dummy of every time',
-	Review:'sdfghjklfghjkl;fghjk sdfghjklfghjkl;fghjk',
+	title:'Near Taj Mahal',
+	Review:'Near One Of The 7 Wonders Of the World',
 	
 	},
 
 	{
 	id:2,
 	image:IMG2,
-	title:'dummy of every time',
-	Review:'sdfghjklfghjkl;fghjk',
+	title:'Near Rohtang Pass',
+	Review:'At a high altitude of 13,050 ft, is named after the local word for pile of corpses.',
 	
 	},
+
+
 
 {
 	id:3,
-	image:IMG3,
-	title:'dummy of every time',
-	Review:'sdfghjklfghjkl;fghjk',
-	
-	},
-
-{
-	id:4,
 	image:"https://www.targetadmission.com/img/colleges/optimized/600/IMG-1-772888231.jpg",
-	title:'dummy of every time',
-	Review:'sdfghjklfghjkl;fghjk',
+	title:'Btech',
+	Review:'MGM College Of Engineering&Pharmaceutical Sciences',
 	
 	},
 
 	
 	{
-		id:5,
+		id:4,
 		image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLw-A6xmEkudC7wvrKyLIZGLRIBGjLnzCCei1P91qV2dCllzIDdhD9cOE94lIlhCKrTKg&usqp=CAU",
-		title:'dummy of every time',
-		Review:'sdfghjklfghjkl;fghjk',
+		title:'Higher Secondary',
+		Review:'Gvhss Kalpakanchery',
 		
 	},
 	
 	{
-		id:6,
+		id:5,
 		image:"https://cache.careers360.mobi/media/schools/social-media/media-gallery/8817/2019/7/24/Aes%20Central%20School-Campus%20View.jpg",
 		title:'High School',
 		Review:'Aes Central School',
