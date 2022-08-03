@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <section id='contact'>
       <footer>
-        <a href="#" className='footer__logo'>FAZIL</a>
+        <a href="#" className='footer__logo'>Fazil_Qickzo</a>
 
         <ul className='permalinks'>
           <li><a href="#">Home</a></li>
