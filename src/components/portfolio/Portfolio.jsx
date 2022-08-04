@@ -20,18 +20,18 @@ const data = [
 	{
 	id:2,
 	image:IMG2,
-	title:'dummy of every time',
+	title:'Plan A Trip ',
 	github:'https://google.com',
-	demo:''
+	demo:'https://tour-package.netlify.app/'
 	
 	},
 
 {
 	id:3,
 	image:IMG3,
-	title:'dummy of every time',
+	title:'Para-Robot',
 	github:'https://google.com',
-	demo:'https://mashable.com/article/dark-mode-apps-instagram-google-chrome-apple-ios13'
+	demo:'https://para-robot.netlify.app/'
 	
 	},
 
@@ -47,18 +47,18 @@ const data = [
 {
 	id:5,
 	image:IMG5,
-	title:'dummy of every time',
+	title:'Review Yourself',
 	github:'https://google.com',
-	demo:'https://mashable.com/article/dark-mode-apps-instagram-google-chrome-apple-ios13'
+	demo:'https://my-reviewapp.netlify.app/'
 	
 	},
 
 {
 	id:6,
 	image:IMG6,
-	title:'dummy of every time',
+	title:'Your Payment is Safe here',
 	github:'https://google.com',
-	demo:'https://mashable.com/article/dark-mode-apps-instagram-google-chrome-apple-ios13'
+	demo:'https://payment-app.netlify.app/'
 	
 	}
 
