@@ -1,9 +1,8 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.jpg';
 import IMG2 from '../../assets/portfolio2.jpg';
 import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
+import IMG4 from '../../assets/lets.jpg';
 import IMG5 from '../../assets/portfolio5.png';
 import IMG6 from '../../assets/portfolio6.jpg';
 
@@ -11,10 +10,10 @@ const data = [
 
 	{
 	id:1,
-	image:IMG1,
-	title:'dummy of every time',
+	image:"https://media.istockphoto.com/photos/online-job-search-picture-id1148395111?k=6&m=1148395111&s=612x612&w=0&h=l0rTGVZm2Osx5O0GkrTtkH3COyVQhnbFvsuBmZHikr0=",
+	title:'Search Your Jobs',
 	github:'https://google.com',
-	demo:'https://mashable.com/article/dark-mode-apps-instagram-google-chrome-apple-ios13'
+	demo:'https://mohamedfazilk.github.io/jobswebsite/'
 	
 	},
 
@@ -23,7 +22,7 @@ const data = [
 	image:IMG2,
 	title:'dummy of every time',
 	github:'https://google.com',
-	demo:'https://mashable.com/article/dark-mode-apps-instagram-google-chrome-apple-ios13'
+	demo:''
 	
 	},
 
@@ -39,9 +38,9 @@ const data = [
 {
 	id:4,
 	image:IMG4,
-	title:'dummy of every time',
+	title:"Let's Play TIC TAC TOE",
 	github:'https://google.com',
-	demo:'https://mashable.com/article/dark-mode-apps-instagram-google-chrome-apple-ios13'
+	demo:'https://mohamedfazilk.github.io/TIC-TAC-TOE-/',
 	
 	},
 
@@ -84,8 +83,8 @@ const Portfolio = () => {
         </div>
         <h3>{title}</h3>
          <div className="portfolio-item-cta">
-         <a href={github} className='btn' target='_blank'>Github</a>
-        <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+         <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
+        <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
         </div>
       </article>
           )

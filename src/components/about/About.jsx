@@ -4,6 +4,7 @@ import ME from '../../assets/fas.jpg';
 import {AiFillGooglePlusSquare} from 'react-icons/ai';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
+import {SiQuicktime} from 'react-icons/si'
 
 const about = () => {
   return (
@@ -20,16 +21,17 @@ const about = () => {
 
         <div className="about__content">
           <div className="about__cards">
+            
+            <article className="about__card">
+              <SiQuicktime className='about__icon'/>
+              <h5> Co-founder </h5>
+              <small>Qickzo</small>
+            </article>
+
             <article className="about__card">
               <AiFillGooglePlusSquare className='about__icon'/>
               <h5>GDG </h5>
               <small>Member of GDG  </small>
-            </article>
-
-            <article className="about__card">
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>200+ workspace</small>
             </article>
 
             <article className="about__card">
