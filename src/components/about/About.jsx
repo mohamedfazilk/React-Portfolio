@@ -24,7 +24,7 @@ const about = () => {
             
             <article className="about__card">
               <SiQuicktime className='about__icon'/>
-              <h5> Co-founder </h5>
+              <h5 className='text-co'> Co-founder </h5>
               <small>Qickzo</small>
             </article>
 

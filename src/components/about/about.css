@@ -57,6 +57,7 @@
 
 .about__card h5 {
     font-size: 0.95rem;
+    
 }
 
 .about__card small {
@@ -64,6 +65,10 @@
     color: var(--color-light);
     display: list-item
 
+}
+
+.text-co {
+    white-space: nowrap;
 }
 
 .about__content p {
