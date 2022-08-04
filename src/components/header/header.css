@@ -89,8 +89,22 @@ header {
     margin: 1rem;
     }
 
-    .header__socials, .scroll__down{
+     .scroll__down{
         display: none;
     }
+
+    .header__socials{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    margin-left: 7rem;
+    margin-top: 2rem;
 }
+
+.header__socials::after {
+    display: none;
+}
+    }
+
 
